@@ -2,3 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
+/* ==================== CSS Variables ==================== */
+:root{
+
+    /* ==================== Font ==================== */
+    --heading : 2.19rem;
+    --medium-heading: 1.56rem;
+    --font: 1.2rem;
+    --small-font: 0.88rem;
+
+    /* =============== background color =============== */
+    --font-color: rgba(255, 249, 216, 0.82);
+    --heading-color: rgb(255, 255, 255);
+    --bg-color: linear-gradient(90deg, hsl(104, 28%, 40%) 0%, hsl(58, 28%, 40%) 100%);
+    --container-color: linear-gradient(90deg, hsl(104, 28%, 40%) 0%, hsl(59, 50%, 30%) 100%);
+    --dark-container-color: linear-gradient(90deg, hsl(103, 33%, 27%) 0%, hsl(57, 56%, 33%) 100%);
+    --btn-bg-color: #F4511F;
+
+    /* ==================== Padding for btn ==================== */
+    --padding-small-btn: 16px 28px;
+}
+

@@ -44,3 +44,26 @@
     color: white;
 }
 
+/* ==================== BASE ====================: By Snigdhendu */
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* ==================== Body ====================: By Snigdhendu */
+body{
+    background: var(--bg-color);
+    padding: 0 13%;
+    overflow-x: hidden;
+    color: var(--font-color);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+

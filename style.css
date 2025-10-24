@@ -66,4 +66,16 @@ body{
     font-style: normal;
 }
 
+/* ==================== Nav Bar ====================: By Snigdhendu */
+.nav_bar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    width: 80%;
+    z-index: 5;
+    height: 5rem;
+    justify-content: space-between;
+    color: var(--heading-color);
+}
 

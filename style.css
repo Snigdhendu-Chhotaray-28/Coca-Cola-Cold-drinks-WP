@@ -150,4 +150,12 @@ body{
 .home_s1_txt p{
     line-height: 25px;
 }
+.explor{
+    position: relative;
+    top: -40px;
+    align-self: flex-end;
+    padding: 16px 28px;
+    border-radius: 10px;
+    background-color: var(--btn-bg-color);
+}
 

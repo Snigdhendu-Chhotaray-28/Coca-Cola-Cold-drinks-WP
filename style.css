@@ -120,3 +120,22 @@ body{
     border-radius: 50px;
     border: 2px solid white;
 }
+
+/* ==================== Home Page ====================: By Snigdhendu */
+
+/* ==================== Home: 2nd page ==================== */
+.home_s1{
+    overflow-y: hidden;
+    margin-top: 100px;
+    padding: 0px 100px;
+    background: var(--container-color);
+    border-radius: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.261);
+}
+.home_s1_img{
+    position: relative;
+    top: 4px;
+    width: 235px;
+    filter: drop-shadow(10px 10px 10px rgb(250, 250, 250));
+}
+

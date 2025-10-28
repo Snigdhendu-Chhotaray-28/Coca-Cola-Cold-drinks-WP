@@ -208,3 +208,24 @@ body{
 .home_sub-name{
     align-self: flex-end;
 }
+.home_s2_right{
+    margin: 35px 150px 0px 50px;
+}
+.home_s2_right_3_txt{
+    position: relative;
+    top: -15px;
+}
+.home_s2_right_3_txt .home_s2_heading{
+    margin-bottom: 5px;
+}
+.home_s2_heading{
+    color: var(--heading-color);
+    font-size: 65px;
+    font-weight: 900;
+    margin: 10px 0px 25px 0px;
+    line-height: 65px;
+}
+.home_s2_btn{
+    display: flex;
+    justify-content: space-between;
+}

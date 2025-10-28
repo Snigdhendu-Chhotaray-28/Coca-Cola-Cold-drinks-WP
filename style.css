@@ -187,3 +187,24 @@ body{
 .home_s2_left_txt{
     align-self: flex-end;
 }
+/* .stick{
+    position: relative;
+    top: 3px;
+    left: 0px;
+} */
+.round{ 
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50px;
+}
+.line{
+    width: 1.5px;
+    height: 80px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.home_name,
+.home_sub-name{
+    align-self: flex-end;
+}

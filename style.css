@@ -159,3 +159,31 @@ body{
     background-color: var(--btn-bg-color);
 }
 
+/* ==================== Auto Swiper :  Home: page 3 ==================== */
+.home_s2_div{
+    padding-top: 100px;
+    overflow: hidden;
+    width: auto;
+    display: flex;
+}
+.home_name{
+    font-size: 18px;
+    color: var(--heading-color);
+    font-weight: 800;
+}
+.home_s2_left img{
+    background-color: transparent;
+    margin: 0px 100px;
+    width: 250px;
+    margin-left: 50px;
+}
+.home_s2_left_down{
+    align-self: flex-start;
+    flex-direction: row-reverse;
+    gap: 15px;
+    margin-left: 60px;
+    justify-content: center;
+}
+.home_s2_left_txt{
+    align-self: flex-end;
+}

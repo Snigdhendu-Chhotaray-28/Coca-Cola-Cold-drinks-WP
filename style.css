@@ -240,3 +240,20 @@ body{
     position: relative;
     top: 66px;
 }
+
+/* ==================== Home: 3nd page (Fev. drinks) ==================== */
+.home_s3 h2{
+    margin: 0px 0px 60px 0px;
+    font-size: var(--medium-heading);
+    color: var(--heading-color);
+}
+.home_s3_div{
+    width: 25%;
+    margin: 50px;
+    align-self: flex-start;
+    background-color: var(--bg-color);
+}
+.home_s3_img{
+    width: 200px;
+    margin-bottom: 20px;
+}

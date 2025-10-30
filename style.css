@@ -279,3 +279,15 @@ body{
     align-items: flex-start;
     gap: 40px;
 }
+.about_content h2{
+    font-size: var(--medium-heading);
+    color: var(--heading-color);
+}
+.about_content p{
+    width: 400px;
+}
+.about_content a{
+    background-color: var(--btn-bg-color);
+    padding: var(--padding-small-btn);
+    border-radius: 10px;
+}

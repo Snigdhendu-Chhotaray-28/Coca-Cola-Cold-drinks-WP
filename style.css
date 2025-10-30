@@ -270,3 +270,12 @@ body{
     text-align: center;
 }
 
+/* ==================== About ====================: By Snigdhendu */
+.about{
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+.about_content{
+    align-items: flex-start;
+    gap: 40px;
+}

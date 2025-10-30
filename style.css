@@ -291,3 +291,11 @@ body{
     padding: var(--padding-small-btn);
     border-radius: 10px;
 }
+.about_img{
+    width: 200px;
+}
+.drinks_s1_divs{
+    gap: 50px;
+    margin: 50px 0px;
+}
+

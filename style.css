@@ -321,4 +321,15 @@ body{
     width: 220px;
     height: 300px;
 }
-
+.drinks_s1_div img{
+    width: 150px;
+}
+.drinks_s1_div h3{
+    margin: 5px 0px;
+}
+.drinks_s1_div p{
+    font-size: var(--small-font);
+}
+.drinks_s1_div i{
+    align-self: flex-end;
+}

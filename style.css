@@ -299,3 +299,26 @@ body{
     margin: 50px 0px;
 }
 
+/* ==================== Drinks ====================: By Snigdhendu */
+.drinks{
+    margin: 100px 0px;
+}
+
+/* ==================== Drinks 1st page ==================== */
+.drinks_s1 h1{
+    color: white;
+    margin-bottom: 30px;
+}
+.drinks_s1_divs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.drinks_s1_div{
+    overflow: hidden;
+    background: var(--bg-color);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(24, 24, 24, 0.385);
+    width: 220px;
+    height: 300px;
+}
+

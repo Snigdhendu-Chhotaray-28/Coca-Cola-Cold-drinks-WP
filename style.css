@@ -333,3 +333,14 @@ body{
 .drinks_s1_div i{
     align-self: flex-end;
 }
+.amount{
+    margin: 5px 0px;
+    font-weight: 700;
+}
+.drinks_eye{
+    padding: 8px;
+    position: relative;
+    top: -10px;
+    left: 50px;
+    visibility: hidden;
+}

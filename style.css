@@ -373,3 +373,13 @@ body{
 }
 
 
+/* ==================== New ====================: By Snigdhendu */
+.new h1{
+    margin-bottom: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+

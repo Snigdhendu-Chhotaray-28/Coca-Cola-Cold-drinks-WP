@@ -356,3 +356,20 @@ body{
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.361);
     border-radius: 20px;
 }
+.drinks_s2 img{
+    width: 200px;
+}
+.drinks_s2_txt p{
+    font-size: var(--medium-heading);
+    font-weight: 800;
+    color: var(--heading-color);
+    margin-bottom: 10px;
+}
+.drinks_s2_txt a{
+    padding: var(--padding-small-btn);
+    background-color: var(--btn-bg-color);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+

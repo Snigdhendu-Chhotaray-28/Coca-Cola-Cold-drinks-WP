@@ -403,3 +403,34 @@ body{
     background: var(--container-color);
     box-shadow: 0 8px 42px rgba(0, 0, 0, 0.269);
 }
+.le p,
+.product p{
+    background-color: var(--btn-bg-color);
+    padding: 4px 7px;
+    border-radius: 5px;
+    margin-top: 5px;
+    position: relative;
+    top: 15px;
+    left: -32%;
+}
+.le img,
+.product img{
+    width: 250px;
+    padding: 0px 30px;
+}
+.le h5,
+.product h5{
+    margin: 6px 0px 25px 0px;
+}
+.le-price,
+.product-price{
+    display: flex;
+    gap: 10px;
+}
+.original{
+    color: red;
+    text-decoration: line-through;
+    font-size: 14px;
+    align-self: center;
+}
+

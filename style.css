@@ -383,3 +383,23 @@ body{
 }
 
 
+/* ==================== Products , Limited Edition ====================: By Snigdhendu */
+.products{
+    padding: 30px;
+    width: 900px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 100px;
+    scrollbar-width: none;
+
+}
+.product{
+    min-width: 233px !important;
+    max-width: 233px !important;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 350px;
+    border-radius: 20px;
+    background: var(--container-color);
+    box-shadow: 0 8px 42px rgba(0, 0, 0, 0.269);
+}

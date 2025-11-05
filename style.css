@@ -494,6 +494,66 @@ body{
     color: white;
     font-size: var(--font);
 }
+.footer_content{
+    width: 110%;
+    justify-content: space-evenly;
+}
+.footer_img1{
+    position: absolute;
+    left: -1vw;
+    width: 170px;
+}
+.fd{
+    align-items: flex-start;
+}
+.fd_btns{
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+.fd-1 h4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.fd-1 img{
+    position: relative;
+    top: -20px;
+    width: 20px;
+    transform: rotate(50deg);
+}
+.fd-1_btns{
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+}
+.fd a{
+    font-size: 14px;
+}
+.footer_link{
+    text-decoration: none;
+    color: var(--font-color);
+}
+.footer_img2{
+    position: absolute;
+    right: 0vw;
+    width: 110px;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: white; /* or any visible color */
+  margin: 30px 0; /* optional spacing */
+  width: 100%;
+}
+.footer__copy{
+    margin-bottom: 50px;
+}
+.portfolio{
+    color: white;
+    font-weight: 700;
+    background-color: transparent;
+}
 
 
 

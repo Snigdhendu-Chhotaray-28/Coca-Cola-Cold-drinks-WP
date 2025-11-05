@@ -456,3 +456,17 @@ body{
     margin-left: 60px;
 }
 
+
+/* ======================= Footer =======================: By Snigdhendu */
+.footer h1{
+    margin: 150px 0px 50px 0px;
+}
+.sub_heading{
+    width: 350px;
+    font-size: var(--font);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+

@@ -557,3 +557,129 @@ hr {
 
 
 
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 28px;
+  background-color: var(--btn-bg-color);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: none;
+  z-index: 100;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+#scrollToTopBtn:hover {
+  background-color: #d13f00;
+}
+
+
+
+
+
+/* ======================= Swiper ======================= */
+.swiper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.swiper-slide,
+.swiper-slide {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+
+.le i{
+    background-color: var(--btn-bg-color);
+    align-self: flex-end;
+    border-radius: 10px;
+    padding: 9px;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    visibility: hidden;
+}
+.swiper.le_divs {
+  width: 90%;
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+  padding-bottom: 30px;
+  height: auto !important;
+}
+
+.le {
+    overflow: hidden;
+    background: var(--container-color);
+    color: #fff;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+    height: auto !important;
+    margin-top: 50px;
+}
+
+.le img {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+
+.le-price {
+  display: flex;
+  gap: 10px;
+}
+
+.discounted {
+  font-weight: bold;
+}
+
+.original {
+  text-decoration: line-through;
+  color: red;
+}
+
+.swiper-pagination {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .swiper-slide {
+    font-size: 16px;
+    height: 360px;
+  }
+}
+
+@media (max-width: 640px) {
+  .swiper-slide {
+    height: 330px;
+  }
+}
+
+
+
+/* ======================= Hover effect =======================: By Snigdhendu */
+.drinks_s1_div:hover .drinks_eye{
+    visibility: visible;
+    background-color: var(--btn-bg-color);
+    left: 0px;
+    transition: all 0.6s ease-out 0.1s;
+}
+
+
+
+
+

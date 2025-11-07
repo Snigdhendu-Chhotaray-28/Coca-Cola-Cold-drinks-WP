@@ -787,6 +787,14 @@ hr {
     .co{
         width: 140px;
     }
-
+    .home_s1_txt h1{
+        font-size: 50px;
+    }
+    .home_s1{
+        padding: 0px 40px;
+    }
+    .drinks_s2{
+        margin: 100px 0px 0px 0px;
+    }
 }
 

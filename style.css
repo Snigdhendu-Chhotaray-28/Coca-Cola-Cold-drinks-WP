@@ -699,3 +699,77 @@ hr {
 
 
 
+
+/* ======================= Magnify animation =======================: By Snigdhendu */
+.cssanimation, .cssanimation span {
+    animation-duration: .6s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.leMagnify span { animation-name: leMagnify }
+@keyframes leMagnify {
+    50% {
+        transform: scale(1.8);
+        letter-spacing: 26px
+    }
+}
+
+/* ==================== Scroll Animation ====================: By Snigdhendu */
+.scroll-fade-up {
+    position: relative;
+    top: -100px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-fade-up.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+    position: relative;
+    top: 0px;
+    transition: all 0.6s ease-out 0s;
+}
+
+.scroll-fade-left {
+    position: relative;
+    left: -50px;
+    opacity: 0;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.is-visible-left {
+    opacity: 1;
+    position: relative;
+    left: 0px;
+    transition: all 0.5s ease-in 0.4s;
+}
+
+.scroll-fade-right {
+    position: relative;
+    right: -70px;
+    opacity: 0;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.is-visible-right {
+    opacity: 1;
+    position: relative;
+    right: 0px;
+    transition: all 0.5s ease-in 0.4s;
+}
+
+
+/* ==================== Responsive Fixes ====================: By Snigdhendu */
+
+@media (max-width: 1335px) {
+    .home_s2_heading{
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+
+}
+

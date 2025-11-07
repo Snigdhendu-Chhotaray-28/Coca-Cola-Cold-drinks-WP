@@ -769,7 +769,24 @@ hr {
         font-size: 45px;
         line-height: 45px;
     }
-
+    .home_s2_left img{
+        width: 200px;
+        margin: 0px 150px;
+    }
+    .home_s2_right{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .home_s2_left_down{
+        margin-left: 120px;
+    }
+    .home_s2_btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .co{
+        width: 140px;
+    }
 
 }
 

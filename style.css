@@ -859,3 +859,40 @@ hr {
     }
 }
 
+@media(max-width: 890px){
+    .nav_bar{
+        width: 90vw;
+    }
+    .home_s3_divs{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .home_s3_div{
+        width: 30%;
+    }
+    .home_s1{
+        height: auto;
+    }
+    .home_s1_img{
+        width: 200px;
+        top: 5px;
+    }
+    .home_s1_txt{
+        height: auto;
+        height: 350px;
+    }
+    .home_s1_txt h1{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .home_s1_txt p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+
+

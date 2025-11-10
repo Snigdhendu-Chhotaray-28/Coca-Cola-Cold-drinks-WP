@@ -894,5 +894,25 @@ hr {
     }
 }
 
-
+@media(max-width: 840px){
+    .home_s2_heading{
+        font-size: 35px;
+        line-height: 33px;
+    }
+    .home_s1_txt{
+        margin-left: 50px;
+        position: relative;
+        top: -50px;
+    }
+    .home_s1_txt h1{
+        font-size: 37px;
+        line-height: 37px;
+    }
+    .home_s1_txt a{
+        top: -20px;
+    }
+    .drinks_s1_divs{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 

@@ -915,4 +915,22 @@ hr {
         grid-template-columns: repeat(2,1fr);
     }
 }
-
+@media(max-width: 760px){
+    body{
+        padding: 0% 5%;
+    }
+    .about_img{
+        width: 150px;
+    }
+    .about_content{
+        width: 50%;
+    }
+    .about_content p{
+        width: 100%;
+    }
+    .drinks_s2{
+        width: 100%;
+        gap: 0px;
+        justify-content: space-evenly;
+    }
+}

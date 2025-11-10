@@ -804,7 +804,50 @@ hr {
     }
 }
 
-
+@media (max-width: 1064px) {
+    body{
+        padding: 0% 10% 0% 8%;
+    }
+    .menu{
+        width: 60%;
+    }
+    .co{
+        top: 30px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+    }
+    .track{
+        top: 40px;
+    }
+    .limited_edition{
+        width: 98vw;
+        align-self: center;
+        margin-left: 2vw;
+    }
+    .le h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .footer_img1,
+    .footer_img2{
+        align-self: flex-end;
+    }
+    .footer_content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 20vw;
+        margin-bottom: 50px;
+    }
+    .fd{
+        margin-top: 50px;
+    }
+    .fd-1 p{
+        display: flex;
+        justify-content: center;
+        padding-right:20px;
+    }
+}
 
 
 

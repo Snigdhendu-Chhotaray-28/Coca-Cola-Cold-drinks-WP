@@ -934,3 +934,38 @@ hr {
         justify-content: space-evenly;
     }
 }
+@media(max-width: 700px){
+    .logo{
+        font-size: 13px;
+    }
+    .logo_img{
+        width: 30px;
+    }
+    .menu{
+        font-size: 14px;
+        width: 60%;
+    }
+    .home_s2_left img{
+        margin: 0px 70px;
+    }
+    .home_s2_left_down{
+        margin-left: 40px;
+    }
+    .footer_content{
+        align-items: flex-start;
+        padding: 0px 80px 0pc 130px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .fd-1{
+        grid-column: 1 / -1;
+    }
+    .fd_btns{
+        margin-top: 10px;
+    }
+    .fd{
+        margin-top: 30px;
+    }
+}
+

@@ -998,4 +998,51 @@ hr {
         width: 95%;
     }
 }
-
+@media(max-width: 606px){
+    .logo h1{
+        width: 200%;
+    }
+    .footer_img2{
+        width: 100px;
+    }
+    .footer_img1{
+        width: 140px;
+    }
+    .footer_content{
+        padding: 0px 90px 0pc 120px;
+    }
+    .home_s1{
+        padding-right: 20px;
+    }
+    .home_s1 p{
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .home_s2_left{
+        width: 250px;
+    }
+    .home_s2_left_down{
+        margin: 0px;
+    }
+    .about{
+        margin-top: 50px;
+    }
+    .about_content{
+        width: 50%;
+    }
+    .drinks_s1{
+        margin-top: 100px;
+    }
+    .drinks_s2 img{
+        width: 170px;
+    }
+    .drinks_s2 p{
+        font-size: 20px;
+    }
+    .home_s3_div {
+        width: 80%;
+    }
+    .home_s3_img{
+        width: 250px;
+    }
+}

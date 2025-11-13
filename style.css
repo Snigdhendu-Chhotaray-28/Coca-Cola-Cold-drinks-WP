@@ -1097,3 +1097,19 @@ hr {
         grid-template-columns: repeat(1,1fr);
     }
 }
+@media(max-width: 517px){
+    .fd-2 h4,
+    .fd-3 h4{
+        height: 39.22px;
+    }
+}
+@media(max-width: 509px){
+    .home_s1{
+        padding: 0px 15px 20px 20px;
+    }
+    .about h2{
+        width: 70vw;
+        display: flex;
+        justify-content: center;
+    }
+}

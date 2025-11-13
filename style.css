@@ -1072,3 +1072,28 @@ hr {
         width: 200px;
     }
 } */
+@media(max-width: 532px){
+    .home_s2_left{
+        width: 200px;
+    }
+    .home_s2_left img{
+        width: 170px;
+    }
+    .home_s2_heading{
+        font-size: 30px;
+    }
+    .home_s1{
+        height: 450px;
+    }
+    .home_s1_img{
+        width: 170px;
+        top: 30px;
+    }
+    .home_s1_txt{
+        margin-left: 30px;
+    }
+    .drinks_s1_divs{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

@@ -1046,3 +1046,29 @@ hr {
         width: 250px;
     }
 }
+@media(max-width: 575px){
+    .fd a{
+        font-size: 12px;
+    }
+    .footer_content{
+        padding: 0px 90px 0pc 100px;
+        gap: 5px;
+    }
+    .fd-4{
+        width: 150%;
+    }
+    .fd-4 h4{
+        width: 70%;
+    }
+}
+@media(max-width: 595px){
+    .about{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+/* @media(max-width: 550px){
+    .le{
+        width: 200px;
+    }
+} */

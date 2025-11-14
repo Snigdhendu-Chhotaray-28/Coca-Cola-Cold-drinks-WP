@@ -1127,3 +1127,37 @@ hr {
         font-size: 15px;
     }
 }
+@media(max-width: 450px){
+    .home_s1{
+        background-image: url("img/img3.png");
+        background-size: contain;
+        /* backdrop-filter: blur(5px); */
+        /* -webkit-backdrop-filter: blur(50px); */
+        background-color: rgba(0, 0, 0, 0.2);
+        background-repeat: no-repeat;
+        background-position: center; /* 👈 change this */
+        padding-bottom: 0px;
+    }
+    .home_s1_img{
+        display: none;
+    }
+    .home_s1_content{
+        padding-top: 50px;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px);
+    }
+    .home_s1 p{
+        color: white;
+    }
+    .home_s1_txt{
+        top: 20px;
+    }
+    .home_s1{
+        margin-top: 100px;
+    }
+    .drinks_s2_txt a{
+        width: 100px;
+        padding: 10px 15px;
+    }
+}

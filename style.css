@@ -1113,3 +1113,17 @@ hr {
         justify-content: center;
     }
 }
+@media(max-width: 490px){
+    .products{
+        padding: 25px;
+    }
+    .back_div{
+        margin-right: 10px;
+    }
+    .next_div{
+        margin-left: 10px;
+    }
+    .footer_content h4{
+        font-size: 15px;
+    }
+}

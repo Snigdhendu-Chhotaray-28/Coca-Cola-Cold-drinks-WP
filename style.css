@@ -1161,3 +1161,48 @@ hr {
         padding: 10px 15px;
     }
 }
+@media(max-width: 440px){
+    .home_s2_div{
+        padding-bottom: 40px;
+        margin-right: 0px;
+    }
+    .home_s2_left{
+        position: fixed;
+        left: 55%;
+        top: 85px;
+    }
+    .home_s2_left img{
+        position: relative;
+        left: -20px;
+        bottom: -20px;
+        margin: 0px 0px 130px 30px;
+        width: 100px;
+        padding-right: 15px;
+    }
+    .stick{
+        display: none;
+    }
+    .home_s2_right{
+        z-index: 3;
+    }
+    .co{
+        margin-left: 10px;
+    }
+    .home_s3 h2{
+        font-size: 17px;
+    }
+    .footer_content{
+        gap: 10px;
+        padding: 0px 70px;
+    }
+    .footer_img1{
+        width: 100px;
+        left: -17px;
+    }
+    .footer_img2{
+        width: 80px;
+    }
+    .fd-4{
+        width: 110px;
+    }
+}

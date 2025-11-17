@@ -1206,3 +1206,78 @@ hr {
         width: 110px;
     }
 }
+@media(max-width: 402px){
+    .home_name{
+        font-size: 16px;
+    }
+    .home_sub-name{
+        font-size: 14px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about h2{
+        align-self: flex-start;
+        justify-content: center;
+    }
+    .about_content{
+        width: 100%;
+    }
+    .about p{
+        text-align: center;
+    }
+    .about a{
+        align-self: center;
+    }
+    .about_img{
+        width: 100px;
+        align-self: center;
+        margin-top: 50px;
+    }
+    .drinks_s2_txt{
+        text-align: center;
+        padding-right: 10px;
+    }
+    .drinks_s1{
+        margin-top: 50px;
+    }
+    .email{
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .email input{
+        border: 1px solid rgb(102, 102, 102);
+        height: 100px;
+        width: 100%;
+        border-radius: 10px;
+        padding-left: 10px;
+        background: var(--bg-color);
+    }
+    .submit{
+        margin-top: 10px;
+        padding: var(--padding-small-btn);
+    }
+    .footer_content{
+        height: 680px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_content h4{
+        height: auto;
+    }
+    .footer_img1{
+        position: relative;
+        left: 4rem;
+        top: 300px;
+        width: 150px;
+    }
+    .footer_img2{
+        position: relative;
+        width: 120px;
+        left: 3rem;
+        top: -11rem;
+    }
+}

@@ -1395,3 +1395,16 @@ hr {
 
 
 
+/* === Floating Animation Keyframes === : By Snigdhendu */
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+}
+
+.float-animation {
+  animation: floatUpDown 3s ease-in-out infinite;
+}

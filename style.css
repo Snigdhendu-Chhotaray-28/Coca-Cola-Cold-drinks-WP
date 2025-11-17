@@ -1321,3 +1321,40 @@ hr {
         width: 80vw;
     }
 }
+@media(max-width: 340px){
+    .home_s2_left img{
+        left: -25px;
+        width: 90px;
+    }
+    .home_s1_txt{
+        top: 0px;
+    }
+    .home_s1_txt h1{
+        font-size: 25px;
+        line-height: 27px;
+    }
+    .home_s1_txt p{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .drinks_s2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .footer_img1{
+        width: 120px;
+    }
+    .footer_img2{
+        width: 100px;
+        left: 4rem;
+        top: -9rem;
+    }
+}
+@media(max-width: 300px){
+    .footer_img1{
+        display: none;
+    }
+}
+
+

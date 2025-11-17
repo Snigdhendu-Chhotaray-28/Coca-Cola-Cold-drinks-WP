@@ -1281,3 +1281,43 @@ hr {
         top: -11rem;
     }
 }
+@media(max-width: 365px){
+    .home_has h3{
+        width: 190px;
+        font-size: 16px;
+    }
+    .home_s2_heading{
+        font-size: 25px;
+    }
+    .home_s2_content{
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .co{
+        width: 40%;
+        font-size: 15px;
+        padding: 10px 5px;
+    }
+    .home_s2_left_txt{
+        position: relative;
+        left: -20px;
+    }
+    .home_sub-name,
+    .home_sub-name{
+        font-size: 13px;
+    }
+    .about_content a{
+        padding: 10px 10px;
+        top: -70px;
+        border-radius: 8px;
+    }
+    .product p{
+        left: -26%;
+    }
+    .product img{
+        width: 180px;
+    }
+    .sub_heading{
+        width: 80vw;
+    }
+}

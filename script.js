@@ -77,6 +77,25 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // === 3. Horizontal Product Scroll (Left and Right Buttons): By Snigdhendu ===
+    function setupProductScroller() {
+        const scrollableDiv = document.querySelector(".products");
+        const backBtn = document.querySelector(".back_div");
+        const nextBtn = document.querySelector(".next_div");
+        let scrollAmount = 220;
+        if(window.innerWidth < 560){
+            scrollAmount = document.querySelector('.product1').offsetWidth + 100;
+        }
+
+        if (scrollableDiv && backBtn && nextBtn) {
+            nextBtn.addEventListener('click', () => {
+                scrollableDiv.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            });
+            backBtn.addEventListener('click', () => {
+                scrollableDiv.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            });
+        }
+    }
 
 });
 

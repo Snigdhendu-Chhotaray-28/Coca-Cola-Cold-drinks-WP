@@ -97,7 +97,41 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // === 4. Animate Headings (Letter by Letter with Delay): By Snigdhendu ===
+    function setupHeadingAnimations() {
+        const headingsToAnimate = document.querySelectorAll('.cssanimation.leMagnify.sequence');
+        if (headingsToAnimate.length === 0) return;
+
+        const animateHeading = (element) => {
+            const text = element.textContent.trim();
+            let newHtml = '';
+            let delay = 100;
+
+            for (const char of text) {
+                if (char !== ' ') {
+                    newHtml += `<span style="animation-delay:${delay}ms">${char}</span>`;
+                    delay += 150;
+                } else {
+                    newHtml += ' ';
+                }
+            }
+            element.innerHTML = newHtml;
+            element.classList.add('animated');
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateHeading(entry.target);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.01
+        });
+
+        headingsToAnimate.forEach(heading => observer.observe(heading));
+    }
+
+
 });
-
-
-

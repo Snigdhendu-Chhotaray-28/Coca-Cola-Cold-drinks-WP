@@ -133,5 +133,20 @@ document.addEventListener('DOMContentLoaded', () => {
         headingsToAnimate.forEach(heading => observer.observe(heading));
     }
 
+    // === 5. Scroll Fade-Up Animation for .scroll-fade-up elements: By Snigdhendu ===
+    function setupScrollAnimations() {
+        const elements = document.querySelectorAll('.scroll-fade-up');
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        elements.forEach(el => observer.observe(el));
+    }
+
 
 });

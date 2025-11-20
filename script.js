@@ -148,5 +148,21 @@ document.addEventListener('DOMContentLoaded', () => {
         elements.forEach(el => observer.observe(el));
     }
 
+    // === 6. Scroll Left Reveal Animation: By Snigdhendu ===
+    function setupScrollAnimationLeft() {
+        const elements = document.querySelectorAll('.left');
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.remove('scroll-fade-left');
+                    entry.target.classList.add('is-visible-left');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.01 });
+
+        elements.forEach(el => observer.observe(el));
+    }
+
 
 });

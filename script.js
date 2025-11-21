@@ -180,7 +180,18 @@ document.addEventListener('DOMContentLoaded', () => {
         elements.forEach(el => observer.observe(el));
     }
 
+    // === 8. Floating Animation for .about_img, .home_s3_img, and .home_s2_div img: By Snigdhendu ===
+    function applyFloatingAnimation() {
+        const floatingElements = document.querySelectorAll('.about_img, .home_s3_img');
+        floatingElements.forEach(el => {
+            el.classList.add('float-animation');
+        });
 
+        const hs2_imgs = document.querySelectorAll('.home_s2_div img');
+        hs2_imgs.forEach(img => {
+            img.classList.add('float-animation');
+        });
+    }
 
 
 });

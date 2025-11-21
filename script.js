@@ -193,6 +193,35 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // === 9. Scroll-to-Top Button: By Snigdhendu ===
+    function setupScrollToTopButton() {
+        const btn = document.createElement('button');
+        btn.innerHTML = '⬆';
+        btn.id = 'scrollToTopBtn';
+        document.body.appendChild(btn);
 
+        btn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > window.innerHeight * 0.8) {
+                btn.style.display = 'block';
+            } else {
+                btn.style.display = 'none';
+            }
+        });
+    }
+
+    // === 10. Run All Initializers: By Snigdhendu ===
+    initializeSwipers();
+    initializeSwipersAutoPlay();
+    setupProductScroller();
+    setupHeadingAnimations();
+    setupScrollAnimations();
+    setupScrollAnimationLeft();
+    setupScrollAnimationRight();
+    applyFloatingAnimation();
+    setupScrollToTopButton();
 });
 

@@ -164,5 +164,24 @@ document.addEventListener('DOMContentLoaded', () => {
         elements.forEach(el => observer.observe(el));
     }
 
+    // === 7. Scroll Right Reveal Animation: By Snigdhendu ===
+    function setupScrollAnimationRight() {
+        const elements = document.querySelectorAll('.right');
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.remove('scroll-fade-right');
+                    entry.target.classList.add('is-visible-right');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.01 });
+
+        elements.forEach(el => observer.observe(el));
+    }
+
+
+
 
 });
+

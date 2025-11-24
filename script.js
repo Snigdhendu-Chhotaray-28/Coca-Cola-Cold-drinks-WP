@@ -255,3 +255,12 @@ function menuBar(){
 }
 menuBar();
 
+let nav_bar_dissapior = ()=>{
+    const menu = document.querySelector('.menu');
+    document.querySelectorAll('section').forEach((section)=>{
+        section.classList.remove('screen_blur');
+    });
+    menu.style.right = '-240px';
+};
+
+

@@ -225,3 +225,33 @@ document.addEventListener('DOMContentLoaded', () => {
     setupScrollToTopButton();
 });
 
+function menuBar(){
+    if(window.innerWidth < 620){
+        const three_bar = document.querySelector('.three_bar');
+        three_bar.classList.add('three_bar_visible')
+        setTimeout(()=>{
+            const menu = document.querySelector('.menu');
+        },1000);  
+        three_bar.addEventListener('click',()=>{
+            setTimeout(()=>{
+                document.querySelectorAll('section').forEach((section)=>{
+                    section.classList.add('screen_blur');
+                });
+                menu.style.right = '-40px';
+            },1000);
+        });
+
+        document.addEventListener('click',(e)=>{
+            if(!menu.contains(e.target) && e.target !== three_bar) {
+                nav_bar_dissapior();
+            }
+        });
+        document.querySelectorAll('.menu a').forEach((item)=>{
+            item.addEventListener('click',()=>{
+                nav_bar_dissapior();
+            });
+        });
+    }
+}
+menuBar();
+

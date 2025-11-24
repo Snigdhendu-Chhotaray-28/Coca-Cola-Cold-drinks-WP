@@ -264,3 +264,59 @@ let nav_bar_dissapior = ()=>{
 };
 
 
+let active = 1;
+
+function setupNavUnderlineAnimation() {
+  const links = document.querySelectorAll('.menu a');
+  const underline = document.querySelector('.nav-underline');
+
+  function moveUnderline(el) {
+    const rect = el.getBoundingClientRect();
+    const menuRect = el.parentElement.getBoundingClientRect();
+    underline.style.width = `${rect.width}px`;
+    underline.style.left = `${rect.left - menuRect.left}px`;
+  }
+
+  // Hover underline: By Snigdhendu
+  links.forEach(link => {
+    // link.addEventListener('mouseenter', () => moveUnderline(link));
+    link.addEventListener('click', () => {
+        active = 0;
+        moveUnderline(link);
+    });
+  });
+
+  // === Active underline on scroll (form page load): By Snigdhendu ===
+  const sectionMap = Array.from(links).reduce((acc, link) => {
+    const id = link.getAttribute('href');
+    if (id && id.startsWith('#')) {
+      const section = document.querySelector(id);
+      if (section) acc[section.id] = link;
+    }
+    return acc;
+  }, {});
+  
+//   ===== When you Scroll the then anly the auto nav acivation works: By Snigdhendu
+  document.addEventListener('wheel',()=>{
+    active = 1;
+  });
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const id = entry.target.id;
+            const activeLink = sectionMap[id];
+            if (activeLink && active) moveUnderline(activeLink);
+        }
+        });
+    }, {
+        threshold: 0.05 // Adjust if needed: By Snigdhendu
+    });
+
+  Object.keys(sectionMap).forEach(id => {
+    const section = document.getElementById(id);
+    if (section) observer.observe(section);
+  });
+}
+
+setupNavUnderlineAnimation();

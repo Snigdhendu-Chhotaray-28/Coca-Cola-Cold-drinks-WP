@@ -21,3 +21,4 @@ Snigdhendu Chhotaray
 <a href="https://snigdhendu-developer-portfolio.netlify.app/">Portfolio</a>
 
 **Live Preview:** 
+<img src="https://raw.githubusercontent.com/Snigdhendu-Chhotaray-28/Coca-Cola-Cold-drinks-WP/refs/heads/main/img/image.png" alt="">
